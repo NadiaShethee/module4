@@ -44,3 +44,28 @@ h3{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 50px gray ;
+    border-radius: 10px;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( orange, orangered);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
